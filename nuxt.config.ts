@@ -31,6 +31,7 @@ export default defineNuxtConfig({
   },
   plugins: ['~/plugins/click-outside.js', '~/plugins/thtml.ts'],
   app: {
+    baseURL: '/tour-new',
     head: {
       link: [
         {
