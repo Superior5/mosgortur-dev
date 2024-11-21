@@ -1,0 +1,1 @@
+export const getHotelTypesImg = key => `https://${(new URL(useRuntimeConfig().public.baseURL)).hostname}/basket/GetImage/GetImage?type=hotelType&id=${key}&width=20&height=20`

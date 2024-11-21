@@ -1,0 +1,78 @@
+.v-range-slider .v-slider-thumb__surface {
+   @apply bg-white border-2 border-regular-0 border-solid;
+}
+
+.v-range-slider .v-slider-track__fill {
+   @apply bg-regular-0;
+}
+
+.v-range-slider .v-slider-thumb__label {
+   @apply bg-white text-black border;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+   @apply transition-opacity duration-200 ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+   @apply opacity-0 fixed;
+}
+
+#search-form .dp__theme_light {
+   --dp-primary-color: #e65100;
+   --dp-action-button-height: auto;
+   --dp-action-buttons-padding: 5px 10px;
+}
+
+.scroll-style::-webkit-scrollbar {
+   @apply h-6px w-6px;
+}
+
+.scroll-style {
+   @apply pb-10px;
+}
+
+.scroll-style::-webkit-scrollbar-track {
+   @apply bg-rarely-4;
+}
+
+.scroll-style::-webkit-scrollbar-thumb {
+   @apply rounded-3px bg-regular-0;
+}
+
+.carousel.buttons .carousel__prev,
+.carousel.buttons .carousel__next {
+   @apply bg-white/60 rounded-1/2 h-30px w-30px;
+}
+
+.v-tooltip > .v-overlay__content {
+   @apply !bg-regular-3 !text-black !text-12px font-notosans leading-4;
+   box-shadow: 0px 2px 8px 0px #00000029;
+}
+
+.illustration[style*="background-image:url(/banners/bannerVlas.webp);"] {
+   background-position: right !important;
+}
+
+.button-gradient {
+   @apply border-1 border-transparent;
+   transition: all;
+   transition-duration: 200ms;
+   border-radius: 5px;
+   background: conic-gradient(from -3deg at 100% -13%, #FC0 0.05824981606565416deg, #F60 360deg);
+   /* тень кнопок */
+   box-shadow: 0px 0px 30px 0px rgba(255, 127, 80, 0.50);
+ }
+
+
+ .button-gradient:hover {
+   @apply text-regular-0 border-1 border-regular-0;
+   background: conic-gradient(from -3deg at 100% -13%, #ffffff 0.05824981606565416deg, #ffffff 360deg) !important;
+   box-shadow: 0px 0px 30px 0px rgb(255, 255, 255);
+ }
+#session-info .session-info-block strong,
+#hotel-info .hotel-info__block strong {
+   @apply font-normal;
+}

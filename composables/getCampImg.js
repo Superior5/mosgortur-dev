@@ -1,0 +1,1 @@
+export const getCampImg = (key, name, type = 'medium') => `https://${(new URL(useRuntimeConfig().public.baseURL)).hostname}/basket/Image/GetImage?code=${key}&type=${type}&name=${name}&imageType=hotels`
